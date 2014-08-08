@@ -13,14 +13,16 @@
 		6812EAE71994B6410089CB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6812EAE51994B6410089CB4B /* InfoPlist.strings */; };
 		6812EAE91994B6410089CB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EAE81994B6410089CB4B /* main.m */; };
 		6812EAED1994B6410089CB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EAEC1994B6410089CB4B /* AppDelegate.m */; };
-		6812EAF01994B6410089CB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6812EAEE1994B6410089CB4B /* Main.storyboard */; };
-		6812EAF31994B6410089CB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EAF21994B6410089CB4B /* ViewController.m */; };
 		6812EAF51994B6410089CB4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6812EAF41994B6410089CB4B /* Images.xcassets */; };
 		6812EAFC1994B6410089CB4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6812EAFB1994B6410089CB4B /* XCTest.framework */; };
 		6812EAFD1994B6410089CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6812EADC1994B6410089CB4B /* Foundation.framework */; };
 		6812EAFE1994B6410089CB4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6812EAE01994B6410089CB4B /* UIKit.framework */; };
 		6812EB061994B6410089CB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6812EB041994B6410089CB4B /* InfoPlist.strings */; };
 		6812EB081994B6410089CB4B /* iOSChallenges_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EB071994B6410089CB4B /* iOSChallenges_1Tests.m */; };
+		6812EB161994B6600089CB4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EB121994B6600089CB4B /* FirstViewController.m */; };
+		6812EB171994B6600089CB4B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6812EB131994B6600089CB4B /* image.png */; };
+		6812EB181994B6600089CB4B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6812EB151994B6600089CB4B /* SecondViewController.m */; };
+		6812EB1A1994B68D0089CB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6812EB191994B68D0089CB4B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +46,18 @@
 		6812EAEA1994B6410089CB4B /* iOSChallenges-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSChallenges-1-Prefix.pch"; sourceTree = "<group>"; };
 		6812EAEB1994B6410089CB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6812EAEC1994B6410089CB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6812EAEF1994B6410089CB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6812EAF11994B6410089CB4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6812EAF21994B6410089CB4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6812EAF41994B6410089CB4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6812EAFA1994B6410089CB4B /* iOSChallenges-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSChallenges-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6812EAFB1994B6410089CB4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6812EB031994B6410089CB4B /* iOSChallenges-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSChallenges-1Tests-Info.plist"; sourceTree = "<group>"; };
 		6812EB051994B6410089CB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6812EB071994B6410089CB4B /* iOSChallenges_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChallenges_1Tests.m; sourceTree = "<group>"; };
+		6812EB111994B6600089CB4B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6812EB121994B6600089CB4B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6812EB131994B6600089CB4B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		6812EB141994B6600089CB4B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6812EB151994B6600089CB4B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6812EB191994B68D0089CB4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +119,12 @@
 			children = (
 				6812EAEB1994B6410089CB4B /* AppDelegate.h */,
 				6812EAEC1994B6410089CB4B /* AppDelegate.m */,
-				6812EAEE1994B6410089CB4B /* Main.storyboard */,
-				6812EAF11994B6410089CB4B /* ViewController.h */,
-				6812EAF21994B6410089CB4B /* ViewController.m */,
+				6812EB191994B68D0089CB4B /* Main.storyboard */,
+				6812EB111994B6600089CB4B /* FirstViewController.h */,
+				6812EB121994B6600089CB4B /* FirstViewController.m */,
+				6812EB141994B6600089CB4B /* SecondViewController.h */,
+				6812EB151994B6600089CB4B /* SecondViewController.m */,
+				6812EB131994B6600089CB4B /* image.png */,
 				6812EAF41994B6410089CB4B /* Images.xcassets */,
 				6812EAE31994B6410089CB4B /* Supporting Files */,
 			);
@@ -228,9 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6812EB1A1994B68D0089CB4B /* Main.storyboard in Resources */,
 				6812EAF51994B6410089CB4B /* Images.xcassets in Resources */,
 				6812EAE71994B6410089CB4B /* InfoPlist.strings in Resources */,
-				6812EAF01994B6410089CB4B /* Main.storyboard in Resources */,
+				6812EB171994B6600089CB4B /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6812EAF31994B6410089CB4B /* ViewController.m in Sources */,
+				6812EB181994B6600089CB4B /* SecondViewController.m in Sources */,
 				6812EAED1994B6410089CB4B /* AppDelegate.m in Sources */,
+				6812EB161994B6600089CB4B /* FirstViewController.m in Sources */,
 				6812EAE91994B6410089CB4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +290,6 @@
 				6812EAE61994B6410089CB4B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6812EAEE1994B6410089CB4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6812EAEF1994B6410089CB4B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6812EB041994B6410089CB4B /* InfoPlist.strings */ = {
